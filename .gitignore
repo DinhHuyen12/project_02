@@ -1,0 +1,156 @@
+# =========================
+# NODE.JS
+# =========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# REACT NATIVE / EXPO
+# =========================
+
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Expo
+*.expo
+*.expo-shared
+
+# React Native
+.metro-health-check*
+.metro-cache/
+
+# =========================
+# ANDROID
+# =========================
+
+android/.gradle/
+android/.idea/
+android/build/
+android/app/build/
+android/local.properties
+android/.cxx/
+android/captures/
+*.apk
+*.aab
+
+# =========================
+# IOS
+# =========================
+
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcworkspace
+ios/Podfile.lock
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+
+# =========================
+# TYPESCRIPT
+# =========================
+
+*.tsbuildinfo
+
+# =========================
+# NEXT.JS / REACT WEB
+# =========================
+
+.next/
+out/
+
+# =========================
+# VITE
+# =========================
+
+.vite/
+
+# =========================
+# ANGULAR (NẾU DÙNG)
+# =========================
+
+.angular/
+.cache/
+
+# =========================
+# LOGS
+# =========================
+
+logs/
+*.log
+
+# =========================
+# SYSTEM
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE
+# =========================
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+.idea/
+*.iml
+
+# =========================
+# TEMP
+# =========================
+
+tmp/
+temp/
+*.tmp
+
+# =========================
+# TEST / COVERAGE
+# =========================
+
+coverage/
+.nyc_output/
+
+# =========================
+# DATABASE / LOCAL FILES
+# =========================
+
+*.sqlite
+*.sqlite3
+
+# =========================
+# SECRET / KEY FILES
+# =========================
+
+*.pem
+*.key
+*.keystore
+*.jks
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
