@@ -1,10 +1,10 @@
 import { Tabs } from "expo-router";
-import React from "react";
 import { StyleSheet } from "react-native";
 
 import { HapticTab } from "@/components/haptic-tab";
 import { IconSymbol } from "@/components/ui/icon-symbol";
 import { useColorScheme } from "@/hooks/use-color-scheme";
+import { Ionicons } from "@expo/vector-icons";
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
@@ -35,6 +35,15 @@ export default function TabLayout() {
           title: "Sản phẩm",
           tabBarIcon: ({ color }) => (
             <IconSymbol size={24} name="bag.fill" color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="account"
+        options={{
+          title: "Tài khoản",
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="person-outline" size={size} color={color} />
           ),
         }}
       />
